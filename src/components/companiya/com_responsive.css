@@ -1,0 +1,261 @@
+@media (max-width: 1075px) {
+  .companiya h1 {
+    font-size: 35px !important;
+  }
+  .companiya .companiya_header {
+    padding: 50px;
+  }
+  .companiya .story {
+    padding: 0 50px;
+  }
+  .companiya .story .story_right {
+    padding: 80px;
+  }
+  .companiya .companiya_logo {
+    padding: 0 50px;
+    margin: 30px 0;
+  }
+  .companiya .companiya_logo img {
+    width: 20%;
+  }
+  .companiya .expertise {
+    padding: 50px;
+  }
+  .companiya .expertise .expertiseText h2 {
+    font-size: 35px;
+    margin: 30px 0;
+  }
+  .companiya .expertise .expertiseBox .expertiseBoxer {
+    padding: 10px 0;
+  }
+  .companiya .expertise .expertiseBox .expertiseBoxer .expertisRasm img {
+    margin-top: 20px;
+    width: 30px;
+    height: 30px;
+  }
+  .companiya .expertise .expertiseBox .expertiseBoxer .boxerText h5 {
+    font-size: 16px;
+  }
+  .companiya .expertise .expertiseBox .expertiseBoxer .boxerText p {
+    font-size: 14px;
+  }
+  .companiya .vision {
+    padding: 50px;
+  }
+  .companiya .team {
+    padding: 0 50px;
+  }
+  .companiya .team .team_rasmlar .team_box .opacity {
+    height: 22vw;
+    padding-top: 9vw;
+  }
+}
+
+@media (max-width: 820px) {
+  .companiya h1 {
+    font-size: 30px !important;
+    line-height: 35px !important;
+  }
+  .companiya .companiya_header {
+    padding: 20px 50px;
+  }
+  .companiya .expertise .expertiseText h2 {
+    font-size: 30px;
+    margin: 10px 0;
+  }
+  .companiya .team > h1 {
+    margin: 10px 0;
+  }
+  .companiya .team .team_rasmlar .team_box .opacity {
+    height: 22vw;
+    padding-top: 9vw;
+    padding-left: 2vw;
+  }
+  .companiya .team .team_rasmlar .team_box .opacity h2 {
+    font-size: 20px;
+  }
+  .companiya .team .team_rasmlar .team_box .opacity p {
+    margin: 5px 0;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 768px) {
+  .companiya .story .story_left > h1 {
+    width: 95%;
+  }
+  .companiya .story .story_left > span {
+    width: 95%;
+  }
+  .companiya .story .story_right {
+    padding: 50px;
+  }
+}
+
+@media (max-width: 660px) {
+  .companiya h1 {
+    font-size: 25px !important;
+    line-height: 30px !important;
+  }
+  .companiya .companiya_header .companiaLogo .logo_left span {
+    width: 20px;
+    height: 20px;
+  }
+  .companiya .companiya_header .companiaLogo .logo_left p {
+    margin: 5px 0;
+  }
+  .companiya .expertise {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 30px 50px;
+  }
+  .companiya .expertise .expertiseText {
+    width: 100%;
+  }
+  .companiya .expertise .expertiseText h2 {
+    font-size: 25px;
+    margin: 10px 0;
+    width: 100%;
+  }
+  .companiya .expertise .expertiseText p {
+    width: 100%;
+  }
+  .companiya .expertise .expertiseBox {
+    width: 100%;
+  }
+  .companiya .story .story_left .shakl {
+    margin-bottom: 5px;
+  }
+  .companiya .story .story_right {
+    padding: 20px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .companiya .story .story_right > .boxer {
+    text-align: center;
+    width: 100%;
+  }
+  .companiya .companiya_logo {
+    margin: 20px 0;
+  }
+  .companiya .companiya_logo .logos {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .companiya .companiya_logo .logos img {
+    width: 30%;
+  }
+  .companiya .vision {
+    padding: 30px 50px;
+  }
+  .companiya .vision h1 {
+    display: inline-block;
+    width: 50%;
+  }
+  .companiya .vision span {
+    width: 50%;
+    display: inline-block;
+  }
+  .companiya .team .team_rasmlar .team_box {
+    width: 50%;
+    height: 40vw;
+  }
+  .companiya .team .team_rasmlar .team_box .opacity {
+    display: none;
+  }
+}
+
+@media (max-width: 425px) {
+  .companiya .companiya_header {
+    padding: 20px;
+  }
+  .companiya .companiya_header > h1 {
+    width: 100%;
+  }
+  .companiya .companiya_header > span {
+    width: 100%;
+  }
+  .companiya .companiya_header .headerRasmlar {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .companiya .companiya_header .headerRasmlar .box {
+    width: 100%;
+  }
+  .companiya .companiya_header .headerRasmlar .box:nth-child(2) {
+    margin: 0px;
+  }
+  .companiya .story {
+    padding: 20px 20px 0;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .companiya .story .story_right {
+    width: 100%;
+    margin: 15px 0;
+  }
+  .companiya .story .story_left {
+    width: 100%;
+  }
+  .companiya .companiya_logo {
+    padding: 0 20px;
+    margin: 20px 0;
+  }
+  .companiya .companiya_logo .logos {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .companiya .companiya_logo .logos img {
+    width: 30%;
+  }
+  .companiya .expertise {
+    padding: 20px;
+  }
+  .companiya .expertise .expertiseText h2 {
+    font-size: 25px;
+  }
+  .companiya .vision {
+    padding: 20px;
+  }
+  .companiya .vision h1 {
+    display: block;
+    width: 100%;
+  }
+  .companiya .vision span {
+    width: 100%;
+    display: block;
+  }
+  .companiya .team {
+    padding: 20px;
+  }
+  .companiya .team h1 {
+    width: 100%;
+  }
+  .companiya .team span {
+    width: 100%;
+  }
+  .companiya .team .team_rasmlar .team_box {
+    height: 45vw;
+  }
+}
+
+@media (max-width: 320px) {
+  .companiya h1 {
+    font-size: 20px !important;
+    line-height: 25px !important;
+  }
+  .companiya .companiya_logo .logos {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .companiya .companiya_logo .logos img {
+    width: 50%;
+  }
+  .companiya .team .team_rasmlar .team_box {
+    width: 100%;
+    height: 85vw;
+  }
+}
+/*# sourceMappingURL=com_responsive.css.map */

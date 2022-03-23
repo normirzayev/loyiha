@@ -1,0 +1,285 @@
+.companiya h1 {
+  color: #232536;
+}
+
+.companiya span {
+  display: inline-block;
+  color: #232536;
+}
+
+.companiya .companiya_header {
+  padding: 50px 100px;
+}
+
+.companiya .companiya_header .companiaLogo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.companiya .companiya_header .companiaLogo .logo_left span {
+  width: 28px;
+  height: 28px;
+  background-color: #FFD3AF;
+}
+
+.companiya .companiya_header .companiaLogo .logo_left p {
+  text-transform: uppercase;
+  font-size: 14px;
+  margin: 15px 0;
+}
+
+.companiya .companiya_header h1 {
+  font-size: 45px;
+  width: 50%;
+}
+
+.companiya .companiya_header > span {
+  opacity: 0.86;
+  width: 50%;
+  margin: 20px 0;
+}
+
+.companiya .companiya_header > .headerRasmlar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.companiya .companiya_header > .headerRasmlar .box img {
+  width: 100%;
+}
+
+.companiya .companiya_header > .headerRasmlar .box:nth-child(2) {
+  margin: 0 10px;
+}
+
+.companiya .story {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20px 100px;
+  color: #232536;
+}
+
+.companiya .story .story_left {
+  width: 50%;
+}
+
+.companiya .story .story_left .shakl {
+  width: 16px;
+  height: 16px;
+  background-color: #666DFF;
+  margin-bottom: 10px;
+}
+
+.companiya .story .story_left h1 {
+  width: 80%;
+  font-size: 36px;
+  margin: 10px 0;
+  line-height: 54px;
+}
+
+.companiya .story .story_left span {
+  width: 75%;
+  opacity: 0.86;
+}
+
+.companiya .story .story_right {
+  width: 50%;
+  background-color: #ffd3af94;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 30px 100px;
+}
+
+.companiya .story .story_right > .boxer {
+  width: 50%;
+}
+
+.companiya .companiya_logo {
+  margin: 50px 0;
+  padding: 0px 100px;
+}
+
+.companiya .companiya_logo .logos {
+  background-color: #FAFAFC;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.companiya .expertise {
+  padding: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #ECF8F9;
+}
+
+.companiya .expertise .expertiseText {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 60%;
+}
+
+.companiya .expertise .expertiseText p {
+  font-size: 14px;
+  color: #5D5F6D;
+  width: 75%;
+}
+
+.companiya .expertise .expertiseText p:first-child {
+  text-transform: uppercase;
+  color: black;
+}
+
+.companiya .expertise .expertiseText h2 {
+  font-size: 48px;
+  margin: 10px 0;
+  width: 85%;
+  font-weight: bold;
+}
+
+.companiya .expertise .expertiseBox {
+  width: 40%;
+}
+
+.companiya .expertise .expertiseBox .expertiseBoxer {
+  margin: 10px 0;
+  padding: 25px 15px;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.companiya .expertise .expertiseBox .expertiseBoxer .expertisRasm img {
+  width: 55px;
+  height: 40px;
+  margin: 0 20px;
+  height: 8vh;
+}
+
+.companiya .expertise .expertiseBox .expertiseBoxer .boxerText p {
+  width: 85%;
+  margin: 5px 0;
+}
+
+.companiya .vision {
+  padding: 50px 100px;
+}
+
+.companiya .vision p {
+  font-size: 14px;
+}
+
+.companiya .vision h1 {
+  font-size: 36px;
+  width: 55%;
+  margin: 20px 0;
+}
+
+.companiya .vision span {
+  width: 43%;
+  opacity: 0.86;
+  margin-bottom: 40px;
+}
+
+.companiya .vision > img {
+  width: 100%;
+}
+
+.companiya .team {
+  padding: 0px 100px;
+}
+
+.companiya .team > p {
+  font-size: 14px;
+}
+
+.companiya .team h1 {
+  font-size: 48px;
+  width: 50%;
+  margin: 20px 0;
+}
+
+.companiya .team span {
+  width: 35%;
+  opacity: 0.86;
+  color: #232536;
+  margin-bottom: 40px;
+}
+
+.companiya .team .team_rasmlar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+}
+
+.companiya .team .team_rasmlar .team_box {
+  height: 21vw;
+  width: 25%;
+  position: relative;
+  overflow: hidden;
+}
+
+.companiya .team .team_rasmlar .team_box > img {
+  width: 100%;
+  position: absolute;
+}
+
+.companiya .team .team_rasmlar .team_box .opacity {
+  background-color: #232536de;
+  width: 100%;
+  height: 21vw;
+  color: white;
+  position: absolute;
+  padding-top: 12vw;
+  padding-left: 3.5vw;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  -webkit-transform: scale(0);
+          transform: scale(0);
+}
+
+.companiya .team .team_rasmlar .team_box .opacity p {
+  opacity: 0.7;
+  margin: 10px 0;
+}
+
+.companiya .team .team_rasmlar .team_box .opacity .team_tarmoqlar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.companiya .team .team_rasmlar .team_box .opacity .team_tarmoqlar img {
+  margin-right: 15px;
+}
+
+.companiya .team .team_rasmlar .team_box:hover .opacity {
+  -webkit-transition-delay: 0.7s;
+          transition-delay: 0.7s;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+/*# sourceMappingURL=companiya.css.map */

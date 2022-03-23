@@ -1,0 +1,487 @@
+.service .serviceHeader {
+  background-color: #232536;
+  padding: 50px 100px;
+}
+
+.service .serviceHeader .kirish {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.service .serviceHeader .kirish .kirishText {
+  width: 50%;
+  padding-top: 100px;
+  color: white;
+}
+
+.service .serviceHeader .kirish .kirishText h1 {
+  font-size: 56px;
+}
+
+.service .serviceHeader .kirish .kirishText p {
+  font-size: 16px;
+  opacity: 0.6;
+  margin: 20px 0;
+  width: 75%;
+  line-height: 25px;
+}
+
+.service .serviceHeader .kirish .kirishText .kirishTugma {
+  padding: 15px 30px;
+  display: inline-block;
+  border-radius: 5px;
+  background-color: #444CFC;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.service .serviceHeader .kirish .kirishText .kirishTugma:hover {
+  background-color: #2530ff;
+  padding: 15px 40px;
+}
+
+.service .serviceHeader .kirish .kirishText .kirishTugma img {
+  margin-left: 10px;
+}
+
+.service .serviceHeader .kirish .kirishRasm {
+  width: 50%;
+  -webkit-transform: 0.5s;
+          transform: 0.5s;
+  width: 45%;
+  height: 625px;
+  margin: 0 30px;
+  overflow: hidden;
+}
+
+.service .serviceHeader .kirish .kirishRasm img {
+  -webkit-transition: 0.3s all ease-in-out;
+  transition: 0.3s all ease-in-out;
+  cursor: pointer;
+  width: 100%;
+}
+
+.service .serviceHeader .kirish .kirishRasm img:hover {
+  -webkit-transform: scale(1.01);
+          transform: scale(1.01);
+  opacity: 0.6;
+}
+
+.service .serviceHeader .kirishFooter {
+  margin: 20px 0 0px;
+}
+
+.service .serviceHeader .kirishFooter .kirishRasmlar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.service .serviceHeader .kirishFooter .kirishRasmlar p {
+  font-size: 1.2vw;
+  color: white;
+  line-height: 23px;
+}
+
+.service .serviceHeader .kirishFooter .kirishRasmlar p span {
+  font-size: 1vw;
+  opacity: 0.6;
+}
+
+.service .serviceHeader .kirishFooter .kirishRasmlar img {
+  width: 15%;
+}
+
+.service .about {
+  padding: 50px 100px;
+}
+
+.service .about .malumotlar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #232536;
+}
+
+.service .about .malumotlar .ong {
+  margin: 10px 0 25px 0;
+}
+
+.service .about .malumotlar .ong h1 {
+  font-size: 48px;
+}
+
+.service .about .malumotlar .chap h1 {
+  font-size: 36px;
+  margin-bottom: 50px;
+}
+
+.service .about .malumotlar .chap p {
+  text-align: start;
+  color: #5D5F6D;
+}
+
+.service .about .slider {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.service .about .slider img {
+  width: 98%;
+}
+
+.service .about .aboutFooter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 20px 0;
+}
+
+.service .about .aboutFooter .statis {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.service .about .aboutFooter .statis .boxer {
+  margin: 10px 80px 0 0;
+}
+
+.service .about .aboutFooter .statis .boxer h2 {
+  font-weight: bold;
+}
+
+.service .about .aboutFooter .readMore {
+  width: 100%;
+}
+
+.service .expertise {
+  padding: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #ECF8F9;
+}
+
+.service .expertise .expertiseText {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 60%;
+}
+
+.service .expertise .expertiseText p {
+  font-size: 14px;
+  color: #5D5F6D;
+  width: 75%;
+}
+
+.service .expertise .expertiseText p:first-child {
+  text-transform: uppercase;
+  color: black;
+}
+
+.service .expertise .expertiseText h2 {
+  font-size: 48px;
+  margin: 10px 0;
+  width: 85%;
+  font-weight: bold;
+}
+
+.service .expertise .expertiseBox {
+  width: 40%;
+}
+
+.service .expertise .expertiseBox .expertiseBoxer {
+  margin: 10px 0;
+  padding: 25px 15px;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.service .expertise .expertiseBox .expertiseBoxer .expertisRasm img {
+  width: 55px;
+  height: 40px;
+  margin: 0 20px;
+  height: 8vh;
+}
+
+.service .expertise .expertiseBox .expertiseBoxer .boxerText p {
+  width: 85%;
+  margin: 5px 0;
+}
+
+.service .ourServices {
+  padding: 50px 100px;
+  background-color: #FFE6D2;
+}
+
+.service .ourServices > p {
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.service .ourServices > h1 {
+  font-size: 48px;
+  width: 50%;
+  margin: 15px 0 25px 0;
+}
+
+.service .ourServices .kirishTugma {
+  padding: 13px 30px;
+  display: inline-block;
+  border-radius: 2px;
+  background-color: #444CFC;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  color: white;
+  cursor: pointer;
+}
+
+.service .ourServices .kirishTugma:hover {
+  background-color: #2530ff;
+  padding: 13px 40px;
+}
+
+.service .ourServices .kirishTugma img {
+  margin-left: 10px;
+}
+
+.service .ourServices .servicesBoxer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 80px 0;
+}
+
+.service .ourServices .servicesBoxer .boxerServic {
+  width: 405px;
+  height: 335px;
+  padding: 50px;
+  margin: 0 15px;
+  background-color: white;
+}
+
+.service .ourServices .servicesBoxer .boxerServic > h4 {
+  margin: 25px 0;
+}
+
+.service .ourServices .servicesBoxer .boxerServic > p {
+  margin: 25px 0;
+  color: #5D5F6D;
+}
+
+.service .ourServices .servicesBoxer .boxerServic:nth-child(1) {
+  margin-left: 0;
+}
+
+.service .ourServices .servicesBoxer .boxerServic:nth-child(1) > img {
+  background-color: #FFF2E8;
+  padding: 10px 12px;
+  border-radius: 20px;
+}
+
+.service .ourServices .servicesBoxer .boxerServic:nth-child(3) {
+  margin-right: 0;
+}
+
+.service .ourServices .servicesBoxer .boxerServic:nth-child(3) > img {
+  background-color: #FFF2E8;
+  padding: 12px;
+  border-radius: 20px;
+}
+
+.service .ourServices .servicesBoxer .boxerServic span {
+  display: inline-block;
+  color: #444CFC;
+}
+
+.service .proces {
+  padding: 50px 100px 20px;
+}
+
+.service .proces .procesNav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.service .proces .procesNav p {
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.service .proces .procesText > h1 {
+  font-size: 48px;
+  color: #232536;
+  margin: 5px 0 20px;
+}
+
+.service .proces .procesText p {
+  color: #232536;
+}
+
+.service .proces .procesBox {
+  margin: 30px 0;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.service .proces .procesBox .procesBoxer {
+  position: relative;
+  margin: 20px 0px;
+  border: 1px solid #32344660;
+  width: 31%;
+  padding: 40px 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.service .proces .procesBox .procesBoxer span {
+  display: inline-block;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  opacity: 0.6;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.service .proces .procesBox .procesBoxer .procesAbout {
+  margin: 0 15px;
+}
+
+.service .proces .procesBox .procesBoxer .procesAbout h1 {
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+.service .proces .procesBox .procesBoxer .procesAbout p {
+  font-size: 16px;
+}
+
+.service .costumers {
+  padding: 50px 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #F9F9FF;
+  width: 100%;
+}
+
+.service .costumers .left {
+  width: 50%;
+  color: #232536;
+}
+
+.service .costumers .left h1 {
+  font-size: 48px;
+  margin: 0 0 20px 0;
+}
+
+.service .costumers .left h4 {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.service .costumers .left p {
+  line-height: 20px;
+}
+
+.service .costumers .left p span {
+  font-weight: bold;
+}
+
+.service .costumers .left .costumersRasm {
+  margin: 10px 0;
+}
+
+.service .costumers .left .costumersRasm img {
+  margin: 0 5px;
+}
+
+.service .costumers .right {
+  width: 50%;
+}
+
+.service .readNews {
+  padding: 50px 100px;
+  background-color: #ECF8F9;
+}
+
+.service .readNews > h1 {
+  font-size: 48px;
+}
+
+.service .readNews .readMore {
+  margin: 25px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.service .readNews .readMore .readBoxer {
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 20px;
+  color: #232536;
+}
+
+.service .readNews .readMore .readBoxer:nth-child(2) {
+  margin-right: 0;
+}
+
+.service .readNews .readMore .readBoxer .boxerText {
+  margin: 35px 20px;
+}
+
+.service .readNews .readMore .readBoxer .boxerText p {
+  opacity: 0.6;
+}
+
+.service .readNews .readMore .readBoxer .boxerText h1 {
+  font-size: 24px;
+  margin: 20px 0;
+}
+
+.service .readNews .readMore .readBoxer .boxerText span {
+  color: #444CFC;
+}
+/*# sourceMappingURL=service.css.map */

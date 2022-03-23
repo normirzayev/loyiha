@@ -1,0 +1,175 @@
+.blog{
+    .trending{
+        padding: 50px 100px;
+        display: flex;
+        width: 100%;
+        .trending_left{
+            width: 60%;
+            .shakl{
+                width: 24px;
+                height: 24px;
+                background-color: #FFD3AF;
+            }
+            &>p{
+                font-size: 14px;
+                margin: 15px 0;
+            }
+            &>h1{
+                font-size: 48px;
+                width: 80%;
+                margin: 10px 0;
+            }
+            &>span{
+                display: inline-block;
+                width: 75%;
+                margin: 15px 0;
+            }
+            a{
+                display: block;
+
+            }
+            .tren_profile{
+                display: flex;
+                margin: 15px 0;
+                align-items: center;
+                width: 70%;
+                h4{
+                    border-right: 1px solid black;
+                    padding-right: 3vw;
+                }
+                span{
+                    padding-left: 3vw;
+                }
+                img{
+                    margin-right:15px;
+                }
+            }
+            &>img{
+                width: 90%;
+            }
+        }
+        .trending_right{
+            width: 40%;
+            height: 640px;
+            padding: 72px;
+            background-color: #FFDFC6;
+            .trending_right_box{
+                h1{
+                    font-size: 24px;
+                    width: 95%;
+                    margin-bottom:15px ;
+                }
+                .trending_right_profile{
+                    display: flex;
+                    margin-bottom: 30px;
+                    color: #232536;
+                    .name{
+                        margin-left: 15px;
+                        p{
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .resentPost{
+        padding: 0px 100px;
+        color: #232536;
+        &>h1{
+            margin: 20px 0;
+        }
+        .resentPost_box{
+            display: flex;
+            width: 100%;
+            flex-wrap: wrap;
+            .resentPost_boxer{
+                display: flex;
+                width: 48%;
+                margin: 1%;
+                &>img{
+                    width: 50%;
+                }
+                .boxer_text{
+                    width: 50%;
+                    background-color: #F9F9FF;
+                    padding: 20px;
+                    h1{
+                        font-size: 24px;
+                        margin: 15px 0;
+                        line-height: 36px;
+                    }
+                    .boxer_profile{
+                        display: flex;
+                        color: #232536;
+                        &>img{
+                            width: 15%;
+                            margin-right: 15px;
+                        }
+                        h4{
+                            opacity: 0.87;
+                            font-size: 16px;
+                        }
+                        p{
+                            opacity: 0.87;
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .allPost{
+        padding: 30px 100px;
+        background-color: #F9F9F9;
+        margin: 50px 0;
+        .allPost_container{
+            &>h1{
+                margin: 40px 0;
+            }
+            .allPost_box{
+                width: 100%;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                .allPost_boxer{
+                    margin: 1% 0;
+                    width: 32%;
+                    &>img{
+                        width: 100%;
+                        margin: 0;
+                    }
+                    .post_boxer_text{
+                        margin-top: -2px;
+                        background-color: white;    
+                        padding: 20px;
+                        &>h1{
+                            width: 93%;
+                            font-size: 24px;
+                        }
+                        &>p{
+                            opacity: 0.87;
+                            margin: 15px 0;
+                        }
+                        .boxer_profile{
+                            display: flex;
+                            color: #232536;
+                            &>img{
+                                width: 13%;
+                                margin-right: 15px;
+                            }
+                            h4{
+                                opacity: 0.87;
+                                font-size: 16px;
+                            }
+                            p{
+                                opacity: 0.87;
+                                font-size: 14px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

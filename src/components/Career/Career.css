@@ -1,0 +1,143 @@
+.career h1, .career h2, .career p {
+  color: #232536;
+}
+
+.career .careerHeader {
+  padding: 50px 100px;
+  text-align: center;
+}
+
+.career .careerHeader .careerLogo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.career .careerHeader .careerLogo > p {
+  font-size: 14px;
+}
+
+.career .careerHeader .careersRasm h2 {
+  width: 50%;
+  font-size: 48px;
+  margin: 15px auto;
+}
+
+.career .careerHeader .careersRasm p {
+  width: 42%;
+  margin: 10px auto;
+  opacity: 0.87;
+}
+
+.career .careerHeader .careersRasm h1 {
+  background-image: url("../../eats/img/career/background.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 230px;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+}
+
+.career .careerHeader > p {
+  font-size: 18px;
+}
+
+.career .technologyAbout {
+  padding: 50px 100px;
+}
+
+.career .technologyAbout .tehcnology_box {
+  background-color: #ECF8F9;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 40px;
+}
+
+.career .technologyAbout .tehcnology_box .tehcnology_boxer {
+  padding: 30px;
+  background-color: white;
+  width: 32%;
+  margin: 10px 0;
+}
+
+.career .technologyAbout .tehcnology_box .tehcnology_boxer h2 {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.career .technologyAbout .tehcnology_box .tehcnology_boxer p {
+  opacity: 0.87;
+  margin: 10px 0;
+}
+
+.career .technologyAbout .tehcnology_box .tehcnology_boxer a {
+  display: inline-block;
+  margin-top: 30px;
+  color: #5D5FEF;
+  text-decoration: none;
+}
+
+.career .culture {
+  padding: 50px 100px;
+  background-color: #f5f5f5;
+}
+
+.career .culture .culture_container p {
+  font-size: 14px;
+}
+
+.career .culture .culture_container h1 {
+  font-size: 36px;
+  width: 50%;
+  margin: 20px 0;
+}
+
+.career .culture .culture_container span {
+  display: inline-block;
+  width: 43%;
+  opacity: 0.87;
+}
+
+.career .culture .culture_container .culture_box {
+  width: 100%;
+  margin: 40px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.career .culture .culture_container .culture_box .culture_boxer {
+  width: 33%;
+  background-color: white;
+  margin: 3px 0;
+  padding: 15px 20px;
+}
+
+.career .culture .culture_container .culture_box .culture_boxer h3 {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.career .culture .culture_container .culture_box .culture_boxer p {
+  font-size: 14px;
+  width: 90%;
+}
+/*# sourceMappingURL=Career.css.map */

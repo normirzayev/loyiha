@@ -1,0 +1,217 @@
+.companiya{
+    h1{
+        color:#232536;
+    }
+    span{
+        display: inline-block;
+        color: #232536;
+    }
+    .companiya_header{
+        padding: 50px 100px;
+        .companiaLogo{
+            display: flex;
+            justify-content: space-between;
+            .logo_left{
+                span{
+                    width: 28px;
+                    height: 28px;
+                    background-color:#FFD3AF;
+                }
+                p{
+                    text-transform: uppercase;
+                    font-size: 14px;    
+                    margin: 15px 0;
+                }
+            }
+        }
+        h1{
+            font-size: 45px;
+            width: 50%;
+        }
+        &>span{
+            opacity: 0.86;
+            width: 50%;
+            margin: 20px 0;
+        }
+        &>.headerRasmlar{
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            .box{
+                img{
+                    width: 100%;
+                }
+                &:nth-child(2){
+                    margin: 0 10px;
+                }
+            }
+        }
+    }
+    .story{
+        display: flex;
+        padding: 20px 100px;
+        color: #232536;
+        .story_left{
+            width: 50%;
+            .shakl{
+                width: 16px;
+                height: 16px;
+                background-color: #666DFF;
+                margin-bottom:10px;
+            }
+            h1{
+                width: 80%;
+                font-size: 36px;
+                margin: 10px 0;
+                line-height: 54px;
+            }
+            span{
+                width: 75%;
+                opacity: 0.86;
+            }
+        }
+        .story_right{
+            width: 50%;
+            background-color: #ffd3af94;
+            display: flex;
+            flex-wrap: wrap;
+            padding: 30px 100px;
+            &>.boxer{
+                width: 50%;
+            }
+        }
+    }
+    .companiya_logo{
+        margin: 50px 0;
+        padding: 0px 100px;
+        .logos{
+            background-color: #FAFAFC;
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+    .expertise{
+        padding: 100px;
+        display: flex;
+        background-color:  #ECF8F9;
+        .expertiseText{
+            flex-direction: column;
+            width: 60%;
+            p{
+                font-size: 14px;
+                color:#5D5F6D;
+                width: 75%;
+                &:first-child{
+                    text-transform: uppercase;
+                    color: black;
+                }
+            }
+            h2{
+                font-size: 48px;
+                margin: 10px 0;
+                width: 85%;
+                font-weight: bold;
+            }
+        }
+        .expertiseBox{
+            width: 40%;
+            .expertiseBoxer{
+                margin: 10px 0;
+                padding: 25px 15px;
+                background-color: white;
+                display: flex;
+                .expertisRasm{
+                    img{
+                        width: 55px;
+                        height: 40px;   
+                        margin: 0 20px;
+                        height: 8vh;
+                    }
+                }
+                .boxerText{
+                    p{
+                        width: 85%;
+                        margin: 5px 0;
+                    }
+                }
+            }
+        }
+    }
+    .vision{
+        padding: 50px 100px;
+        p{
+            font-size: 14px;
+        }
+        h1{
+            font-size: 36px;
+            width: 55%;
+            margin: 20px 0;
+        }
+        span{
+            width: 43%;
+            opacity: 0.86;
+            margin-bottom: 40px;
+        }
+        &>img{
+            width: 100%;
+        }
+    }
+    .team{
+        padding: 0px 100px;
+        &>p{
+            font-size: 14px;
+        }
+        h1{
+            font-size: 48px;
+            width: 50%;
+            margin: 20px 0;
+        }
+        span{
+            width: 35%;
+            opacity: 0.86;
+            color: #232536;
+            margin-bottom: 40px;
+        }
+        .team_rasmlar{
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+            .team_box{
+                height: 21vw;
+                width: 25%;
+                position: relative;
+                overflow: hidden;
+                &>img{
+                    width: 100%;
+                    position: absolute;
+                }
+                .opacity{
+                    background-color: #232536de;
+                    width: 100%;
+                    height: 21vw;
+                    color: white;
+                    position: absolute;
+                    padding-top: 12vw;
+                    padding-left: 3.5vw;
+                    transition: 0.3s;
+                    transform: scale(0);
+                    // transition-delay: 0.3s;
+                    p{
+                        opacity: 0.7;
+                        margin: 10px 0;
+                    }
+                    .team_tarmoqlar{
+                        display: flex;
+                        img{
+                            margin-right: 15px;
+                        }
+                    }
+                }
+                &:hover .opacity{
+                    transition-delay: 0.7s;
+                    transform: scale(1);
+                }
+            }
+        }
+    }
+}

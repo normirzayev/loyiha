@@ -1,0 +1,40 @@
+.project{
+    padding: 50px 100px;
+    .project_header{
+        color: #232536;
+        .logo{
+            display: flex;
+            justify-content: space-between;
+            margin: 10px 0;
+            span{
+                width: 24px;
+                height: 24px;
+                background-color: #FFD3AF;
+            }
+        }
+        &>.h1{
+            font-size: 48px;
+            margin: 25px 0;
+        }
+        &>p{
+            margin: 5px 0;
+            font-size: 11px;
+            opacity: 0.87;
+        }
+    }
+    .project_text{
+        padding: 8% 18%;
+        margin: 50px 0;
+        background-color: #ECF8F9;
+        color: #232536;
+        &>h1{
+            font-size: 36px;
+        }
+        h2{
+            font-size: 24px;
+        }
+        p{
+            margin: 20px 0;
+        }
+    }
+}

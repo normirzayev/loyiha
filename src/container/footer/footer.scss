@@ -1,0 +1,238 @@
+.footer-container{
+    .footer{
+        padding: 50px 100px;
+        form{
+            background-color: #666DFF;
+            padding: 100px;
+            display: flex;
+            justify-content: space-between;
+            color: white;
+            .formText{
+                width: 50%;
+                p{
+                    font-size: 14px;
+                }
+                h1{
+                    font-size: 36px;
+                }
+            }
+            .formTugma{
+                width: 50%;
+                display: flex;
+                flex-direction: column;
+                input{
+                    width: 90%;
+                    height: 50px;
+                    padding: 0 10px;
+                    font-size: 20px;
+                    margin: 15px 0;
+                    outline: none;
+                    border: none;
+                    border-radius: 3px;
+                    transition: all 0.2s ease;
+                    &:focus{
+                        background-color:rgb(219, 219, 219);
+                    }
+                }
+                button{
+                    height: 50px;
+                    outline: none;
+                    border: none;
+                    cursor: pointer;
+                    font-size: 20px;
+                    width: 50%;
+                    border-radius: 3px;
+                    transition: all .3s ease;
+                    &:hover{
+                        background-color: rgb(206, 206, 206);
+                        border-bottom-left-radius: 30px;
+                        border-top-right-radius: 30px;
+                    }
+                }
+            }
+        }
+        .special{
+            display: flex;
+            margin: 80px 0 30px ;
+            .specialtext{
+                width: 50%;
+                h1{
+                    font-size: 48px;
+                }
+                h4{
+                    margin: 20px 0;
+                }
+                span{
+                    display: inline-block;
+                    width: 35%;
+                    border-bottom: 1px solid rgb(194, 194, 194);
+                    padding-bottom: 10px;
+                }
+            }
+            .specialLink{
+                width: 17%;
+                ul{
+                    li{
+                        list-style: none;
+                        margin: 10px 0;
+                    }
+                }
+            }
+        }
+        .contactUS{
+            display: flex;
+            justify-content: space-between;
+            button{
+                outline: none;
+                border: none;
+                background-color: white;
+                cursor: pointer;
+            }
+        }
+    }    
+    .footerQism{
+        padding: 10px 100px;
+        background-color: #FFE6D2;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .logo{
+            display: flex;
+            align-items: center;
+            p{
+                margin: 0px 30px;
+            }
+            
+        }
+        .footerTaqrmoq{
+            img{
+                margin: 0 15px;
+                
+            }
+        }
+    }
+}
+
+@media (max-width:1075px){
+    .footer-container{
+        h1{
+            font-size: 35px !important;
+        }
+        .footer{
+            padding: 50px;
+        }
+        .footerQism{
+            padding: 10px 50px;
+        }
+    }
+}
+@media (max-width:768px){
+    .footer-container{
+        h1{
+            font-size: 25px !important;
+        }
+        .footer{
+            form{
+                padding: 50px;
+            }
+        }
+        .footerQism{
+            padding: 10px 50px;
+        }
+    }
+}
+
+@media (max-width:620px){
+    .footer-container{
+        .footer{
+            form{
+                padding: 30px;
+                flex-direction: column;
+                .formText{
+                    width: 100%;
+                }
+                .formTugma{
+                    width: 100%;
+                    input{
+                        width: 100%;
+                    }
+                }
+            }
+            .special{
+                flex-wrap: wrap;
+                justify-content: center;
+                .specialtext{
+                    width: 100%;
+                }
+                .specialLink{
+                    width: 33%;
+                }
+            }
+        }
+        .footerQism{
+            padding: 10px 50px;
+        }
+    }
+}
+
+@media (max-width:425px){
+    .footer-container{
+        .footer{
+            padding: 30px;
+            form{
+                .formText{
+                    h1{
+                        font-size: 25px;
+                    }
+                }
+                .formTugma{
+                    input{
+                        font-size: 16px;
+                        height: 35px;
+                    }
+                    button{
+                        font-size: 16px;
+                        height: 35px;
+                        &:hover{
+                            background-color: rgb(206, 206, 206);
+                            border-bottom-left-radius: 0;
+                            border-top-right-radius: 0;
+                        }
+                    }
+                }
+            }
+            .special{
+                justify-content: start;
+                .specialtext{
+                    h1{
+                        font-size: 35px;
+                    }
+                }
+                .specialLink{
+                    width: 50%;
+                }
+            }
+            .contactUS{
+                flex-direction: column;
+                align-items: flex-start;
+                line-height: 25px;
+            }
+        }
+        .footerQism{
+            flex-direction: column;
+        }
+    }
+}
+@media (max-width:320px){
+    .footer-container{
+        .footer{
+            padding: 20px;
+            form{
+                padding: 20px;
+            }
+        }
+        .footerQism{
+            padding: 20px;
+        }
+    }
+}

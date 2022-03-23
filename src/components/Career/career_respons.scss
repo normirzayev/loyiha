@@ -1,0 +1,225 @@
+@media(max-width:1075px){
+    .career{
+        .careerHeader{
+            padding: 50px;
+            .careersRasm{
+                h2{
+                    width: 70%;
+                    margin: 10px auto;
+                }
+                h1{
+                    font-size: 200px;
+                }
+            }
+        }
+        .technologyAbout{
+            padding: 50px;
+        }
+        .culture{
+            padding: 50px;
+        }
+    }
+}
+
+@media (max-width:960px){
+    .career{
+        .careerHeader{
+            .careerLogo{
+                &>p{
+                    font-size: 20px;
+                }
+            }
+            .careersRasm{
+                span{
+                    font-size: 20px;
+                }
+                h2{
+                    font-size: 40px;
+                    width: 100%;
+                }
+                p{
+                    width: 90%;
+                }
+                h1{
+                    font-size: 170px;
+                }
+            }
+        }
+        .culture{
+            .culture_container{
+                h1{
+                    width: 100%;
+                    margin: 10px 0;
+                }
+                span{
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:768px){
+    .career{
+        .careerHeader{
+            .careerLogo{
+                p{
+                    font-size: 16px;
+                }
+            }
+            .careersRasm{
+                h2{
+                    font-size: 35px;
+                }
+                h1{
+                    font-size: 150px;
+                }
+            }   
+        }
+        .technologyAbout{
+            .tehcnology_box{
+                padding: 25px;
+            }
+        }
+    }
+}
+
+@media (max-width:660px){
+    .career{
+        .careerHeader{
+            padding: 30px 50px 10px;
+            .careersRasm{
+                h1{
+                    font-size: 130px;
+                }
+                h2{
+                    font-size: 30px;
+                }
+            }
+        }
+        .culture{
+            .culture_container{
+                h1{
+                    font-size: 30px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:530px){
+    .career{
+        .careerHeader{
+            .careersRasm{
+                h1{
+                    font-size: 90px;
+                }
+                h2{
+                    font-size: 25px;
+                }
+            }
+        }
+        .technologyAbout{
+            .tehcnology_box{
+                padding: 20px;
+                .tehcnology_boxer{
+                    padding: 20px;
+                    width: 49%;
+                    margin: 5px 0;
+                }
+            }
+        }
+        .culture{
+            padding: 20px 50px;
+            .culture_container{
+                h1{
+                    font-size: 25px;
+                }
+                .culture_box{
+                    .culture_boxer{
+                        width: 49%;
+                        margin: 5px 0;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:425px){
+    .career{
+        .careerHeader{
+            .careerLogo{
+                &>div{
+                    display: none;
+                }
+            }
+            padding: 20px 20px 0;
+            .careersRasm{
+                h2{
+                    text-align: start;
+                }
+                h1{
+                    font-size: 80px;
+                }
+                p{
+                    margin: 0;
+                    text-align: start;
+                }
+            }
+        }
+        .technologyAbout{
+            padding: 20px;
+            .tehcnology_box{
+                padding: 15px;
+                .tehcnology_boxer{
+                    width: 100%;
+                }
+            }
+        }
+        .culture{
+            padding: 20px;
+        }
+    }
+}
+
+@media (max-width:350px){
+    .career{
+        p{
+            font-size: 14px !important;
+        }
+        .careerHeader{
+            .careersRasm{
+                h2{
+                    font-size: 20px;
+                }
+                h1{
+                    font-size: 20vw;
+                }
+            }
+        }
+        .technologyAbout{
+            .tehcnology_box{
+                padding: 10px;
+                .tehcnology_boxer{
+                    margin-bottom: 10px;
+                }
+            }
+        }
+        .culture{
+            .culture_container{
+                h1{
+                    font-size: 20px;
+                }
+                span{
+                    font-size: 14px;
+                }
+                .culture_box{
+                    .culture_boxer{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}

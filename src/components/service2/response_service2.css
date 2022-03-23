@@ -1,0 +1,151 @@
+@media (max-width: 1024px) {
+  .service2 .header .sarlavhaLink {
+    padding: 60px 70px;
+  }
+  .service2 .boxer_box .boxer_box_text {
+    padding: 50px 0;
+  }
+}
+
+@media (max-width: 960px) {
+  .service2 .header .sarlavha h1 {
+    font-size: 35px;
+    line-height: 40px;
+    margin: 15px 0;
+  }
+  .service2 .header .sarlavhaLink {
+    padding: 40px;
+  }
+  .service2 .boxer_box .boxer_box_text {
+    padding: 30px 0;
+  }
+  .service2 .boxer_box .boxer_box_text h1 {
+    font-size: 35px;
+    margin: 15px 0;
+  }
+  .service2 .boxer_box .boxer_box_left {
+    width: 50%;
+  }
+  .service2 .boxer_box .boxer_box_left img {
+    width: 90%;
+  }
+  .service2 .boxer_box .boxer_box_right {
+    width: 50%;
+  }
+  .service2 .boxer_box .boxer_box_right img {
+    width: 90%;
+  }
+  .service2 .boxer_box:nth-child(3) img {
+    margin-left: 50px;
+  }
+  .service2 .boxer_box:nth-child(5) img {
+    margin-left: 50px;
+  }
+  .service2 .boxer_box:nth-child(7) img {
+    margin-left: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .service2 .header {
+    padding: 50px;
+  }
+  .service2 .proces {
+    padding: 50px;
+  }
+  .service2 .proces .procesText > h1 {
+    font-size: 35px;
+  }
+  .service2 .proces .procesBox .procesBoxer {
+    padding: 30px 20px;
+  }
+  .service2 .boxer_box {
+    padding: 0 50px 50px;
+  }
+}
+
+@media (max-width: 660px) {
+  .service2 h1 {
+    font-size: 30px !important;
+  }
+  .service2 .proces {
+    padding: 30px 50px;
+  }
+  .service2 .proces .procesText > h1 {
+    font-size: 35px;
+  }
+  .service2 .proces .procesBox .procesBoxer {
+    margin: 5px 0;
+    width: 49%;
+    padding: 20px 10px;
+  }
+}
+
+@media (max-width: 425px) {
+  .service2 h1 {
+    font-size: 25px !important;
+    line-height: 30px !important;
+  }
+  .service2 .header {
+    padding: 20px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .service2 .header .sarlavha {
+    width: 100%;
+  }
+  .service2 .header .sarlavha h1 {
+    width: 100%;
+    font-size: 30px;
+  }
+  .service2 .header .sarlavha span {
+    width: 100%;
+  }
+  .service2 .header .sarlavhaLink {
+    width: 100%;
+    padding: 30px 0;
+  }
+  .service2 .proces {
+    padding: 20px;
+  }
+  .service2 .proces .procesText h1 {
+    font-size: 25px;
+  }
+  .service2 .proces .procesBox {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+  }
+  .service2 .proces .procesBox .procesBoxer {
+    width: 100%;
+  }
+  .service2 .boxer_box {
+    padding: 20px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .service2 .boxer_box .boxer_box_left {
+    width: 100%;
+  }
+  .service2 .boxer_box .boxer_box_left img {
+    margin: 0;
+    width: 100%;
+  }
+  .service2 .boxer_box .boxer_box_right {
+    width: 100%;
+  }
+  .service2 .boxer_box .boxer_box_right img {
+    margin: 0;
+    width: 100%;
+  }
+  .service2 .boxer_box .boxer_box_text h1 {
+    font-size: 25px;
+  }
+}
+/*# sourceMappingURL=response_service2.css.map */

@@ -1,0 +1,199 @@
+.service2 .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 50px 100px;
+  width: 100%;
+  background-color: #FFE6D2;
+}
+
+.service2 .header .sarlavha {
+  width: 60%;
+  color: #232536;
+}
+
+.service2 .header .sarlavha p {
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.service2 .header .sarlavha h1 {
+  font-size: 48px;
+  line-height: 58px;
+  width: 90%;
+  margin: 10px 0;
+}
+
+.service2 .header .sarlavha span {
+  display: block;
+  width: 73%;
+}
+
+.service2 .header .sarlavha button {
+  padding: 15px 30px;
+  color: white;
+  background-color: #444CFC;
+  border: none;
+  outline: none;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  cursor: pointer;
+  margin: 20px 0;
+}
+
+.service2 .header .sarlavha button:hover {
+  background-color: #2530ff;
+  padding: 15px 40px;
+}
+
+.service2 .header .sarlavha button img {
+  margin-left: 10px;
+}
+
+.service2 .header .sarlavhaLink {
+  width: 40%;
+  padding: 60px 100px;
+}
+
+.service2 .header .sarlavhaLink ul {
+  list-style: none;
+  line-height: 36px;
+  color: #232536;
+  font-size: 24px;
+}
+
+.service2 .header .sarlavhaLink ul li {
+  font-weight: bold;
+}
+
+.service2 .proces {
+  padding: 50px 100px 20px;
+  background-color: #F9F9FF;
+}
+
+.service2 .proces .procesNav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.service2 .proces .procesNav p {
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.service2 .proces .procesText > h1 {
+  font-size: 48px;
+  color: #232536;
+  margin: 5px 0 20px;
+}
+
+.service2 .proces .procesText p {
+  color: #232536;
+}
+
+.service2 .proces .procesBox {
+  margin: 30px 0;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.service2 .proces .procesBox .procesBoxer {
+  position: relative;
+  margin: 20px 0px;
+  border: 1px solid #32344660;
+  width: 31%;
+  padding: 40px 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.service2 .proces .procesBox .procesBoxer span {
+  display: inline-block;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  opacity: 0.6;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.service2 .proces .procesBox .procesBoxer .procesAbout {
+  margin: 0 15px;
+}
+
+.service2 .proces .procesBox .procesBoxer .procesAbout h1 {
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+.service2 .proces .procesBox .procesBoxer .procesAbout p {
+  font-size: 16px;
+}
+
+.service2 .boxer_box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0px 100px 50px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.service2 .boxer_box .boxer_box_left {
+  width: 50%;
+}
+
+.service2 .boxer_box .boxer_box_left img {
+  width: 80%;
+}
+
+.service2 .boxer_box .boxer_box_right {
+  width: 50%;
+}
+
+.service2 .boxer_box .boxer_box_right img {
+  width: 80%;
+}
+
+.service2 .boxer_box .boxer_box_text {
+  padding: 100px 0;
+}
+
+.service2 .boxer_box .boxer_box_text h1 {
+  margin: 25px 0;
+  font-size: 48px;
+}
+
+.service2 .boxer_box:nth-child(3) img {
+  margin-left: 100px;
+}
+
+.service2 .boxer_box:nth-child(4) {
+  background-color: #ECF8F9;
+}
+
+.service2 .boxer_box:nth-child(5) img {
+  margin-left: 100px;
+}
+
+.service2 .boxer_box:nth-child(6) {
+  background-color: #F9F9FF;
+}
+
+.service2 .boxer_box:nth-child(7) img {
+  margin-left: 100px;
+}
+/*# sourceMappingURL=service2.css.map */

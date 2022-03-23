@@ -1,0 +1,402 @@
+@media (max-width:1075px){
+    .service{
+        .serviceHeader{
+            padding: 50px;
+            .kirish{
+                .kirishText{
+                    padding-top: 20px;
+                }
+                .kirishRasm{
+                    height: auto;
+                    width: 50%;
+                }
+            }
+            .kirishFooter{
+                .kirishRasmlar{
+                    flex-wrap: wrap;
+                    img{
+                        width: 15%;
+                    }
+                }
+            }
+        }
+        .about{
+            padding: 50px;
+            .malumotlar{
+                flex-direction: column;
+                .ong{
+                    margin: 10px 0;
+                }
+                .chap{
+                    h1{
+                        margin: 5px 0;
+                    }
+                    p{
+                        margin: 10px 0;
+                    }
+                }
+            }
+        }
+        .expertise{
+            padding: 50px;
+            .expertiseText{
+                h2{
+                    font-size: 35px;
+                    margin: 30px 0;
+                }
+            }
+            .expertiseBox{
+                .expertiseBoxer{
+                    padding: 10px 0;
+                    .expertisRasm{
+                        img{
+                            width: 30px;
+                            height: 30px;
+                        }
+                    }
+                }
+            }
+        }
+        .ourServices{
+            padding: 50px;
+            &>h1{
+                width: 100%;
+                margin: 5px 0;
+            }
+            .servicesBoxer{
+                margin: 40px 0;
+                .boxerServic{
+                    height: auto;
+                }
+            }
+        }
+        .proces{
+            padding: 50px;
+            .procesText{
+                &>h1{
+                    width: 100%;
+                    margin: 5px 0;
+                }
+            }
+        }
+        .costumers{
+            padding: 50px;
+        }
+        .readNews{
+            padding: 50px;
+            .readMore{
+                flex-direction: column;
+                .readBoxer{
+                    margin: 10px 0;
+                }
+            }
+        }
+    }
+}
+
+@media(max-width:960px){
+    .service{
+        .serviceHeader{
+            padding: 20px 50px;
+            .kirish{
+                width: 100%;
+                .kirishText{
+                    h1{
+                        font-size: 35px;
+                    }
+                }
+            }
+            .kirishFooter{
+                margin-top: 10px;
+                .kirishRasmlar{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    p{
+                        color: white;
+                        line-height: 23px;
+                        span{
+                            font-size: 14px;
+                            opacity: 0.6;
+                        }
+                    }
+                    img{
+                        margin: 0 5px;
+                        width: 20%;
+                    }
+                }
+            }
+        }
+        .proces{
+            padding: 30px 50px;
+            .procesText{
+                &>h1{
+                    font-size: 35px;
+                }
+            }
+            .procesBox{
+                .procesBoxer{
+                    margin: 5px 0;
+                    width: 49%;
+                    padding: 20px 10px;
+                }
+            }
+        }
+    }
+}
+
+@media(max-width:660px){
+    .service{
+        h1{
+            font-size: 30px !important;
+        }
+        .serviceHeader{
+            .kirish{
+                width: 100%;
+                flex-direction: column;
+                .kirishText{
+                    width: 100%;
+                    padding-top: 0;
+                    margin: 20px 0;
+                    h1{
+                        font-size: 35px;
+                    }
+                }
+                .kirishRasm{
+                    width: 100%;
+                    margin: 0 auto;
+                }
+            }
+            .kirishFooter{
+                margin-top: 10px;
+                .kirishRasmlar{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    p{
+                        color: white;
+                        line-height: 23px;
+                        span{
+                            font-size: 14px;
+                            opacity: 0.6;
+                        }
+                    }
+                    img{
+                        margin: 0 5px;
+                        width: 20%;
+                    }
+                }
+            }
+        }
+        .about{
+            .malumotlar{
+                .ong{
+                    margin: 10px 0;
+                    h1{
+                        font-size: 35px;
+                    }
+                }
+            }
+            .aboutFooter{
+                flex-direction: column;
+                .statis{
+                    width: 100%;
+                    flex-wrap: wrap;
+                    justify-content: space-between;
+                    .boxer{
+                        width: 50%;
+                        margin: 10px 0;
+                    }
+                }
+            }
+        }
+        .expertise{
+            flex-direction: column;
+            width: 100%;
+            padding: 30px 50px;
+            .expertiseText{
+                width: 100%;
+                h2{
+                    font-size: 35px;
+                    margin: 10px 0;
+                    width: 100%;
+                }
+                p{
+                    width: 100%;
+                }
+            }
+            .expertiseBox{
+                width: 100%;
+                .expertiseBoxer{
+                    margin: 15px 0;
+                    padding: 10px;
+                    .expertisRasm{
+                        img{
+                            width: 50px;
+                            height: 50px;
+                        }
+                    }
+                    .boxerText{
+                        p{
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+        .ourServices{
+            padding: 30px 50px;
+            &>h1{
+                width: 100%;
+                font-size: 35px;
+            }
+            .servicesBoxer{
+                flex-direction: column;
+                margin: 30px 0;
+                .boxerServic{
+                    width: 100%;
+                    height: auto;
+                    padding: 20px;
+                    margin: 10px 0;
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: space-between;
+                    img{
+                        width: 10%;
+                        height: 10%;
+                    }
+                    h4{
+                        margin: 10px 0;
+                    }
+                    p{
+                        width: 100%;
+                        margin: 10px 0;
+                    }
+                }
+            }
+        }
+        .proces{
+            padding: 30px 50px;
+            .procesText{
+                &>h1{
+                    font-size: 35px;
+                }
+            }
+            .procesBox{
+                .procesBoxer{
+                    margin: 5px 0;
+                    width: 49%;
+                    padding: 20px 10px;
+                }
+            }
+        }
+        .costumers{
+            flex-direction: column;
+            width: 100%;
+            .left{
+                width: 100%;
+                text-align: center;
+                h1{
+                    font-size: 35px;
+                }
+            }
+            .right{
+                width: 100%;
+            }
+        }
+        .readNews{
+            &>h1{
+                font-size: 35px;
+            }
+        }
+    }
+}
+@media(max-width:425px){
+    .service{
+        h1{
+            font-size: 25px !important;
+        }
+        .serviceHeader{
+            padding: 0px 20px;
+        }
+        .about{
+            padding: 20px;
+            p{
+                font-size: 12px;
+            }
+            .malumotlar{
+                .ong{
+                    h1{
+                        font-size: 30px;
+                    }
+                    margin: 10px 0;
+                }
+                .chap{
+                    h1{
+                        font-size: 30px;
+                    }
+                }
+            }
+            .slider{
+                flex-direction: column;
+            }
+            .aboutFooter{
+                margin: 10px 0;
+                flex-wrap: wrap;
+                .statis{
+                    width: 100%;
+                    flex-wrap: wrap;
+                    .boxer{
+                        width: 50%;
+                    }
+                }
+            }
+        }
+        .expertise{
+            padding: 20px;
+            .expertiseText{
+                h2{
+                    font-size: 25px;
+                }
+            }
+        }
+        .ourServices{
+            padding: 20px;
+        }
+        .proces{
+            padding: 20px;
+            .procesText{
+                h1{
+                    font-size: 25px;
+                }
+            }
+            .procesBox{
+                flex-direction: column;
+                width: 100%;
+                .procesBoxer{
+                    width: 100%;
+                }
+            }
+        }
+        .costumers{
+            padding: 20px;
+            .left{
+                width: 100%;
+                h1{
+                    font-size: 25px;
+                }
+            }
+            .right{
+                width: 100%;
+            }
+        }
+        .readNews{
+            padding: 20px ;
+            .readMore{
+                .readBoxer{
+                    flex-direction: column;
+                }
+            }
+        }
+    }
+}

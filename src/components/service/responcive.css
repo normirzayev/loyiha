@@ -1,0 +1,403 @@
+@media (max-width: 1075px) {
+  .service .serviceHeader {
+    padding: 50px;
+  }
+  .service .serviceHeader .kirish .kirishText {
+    padding-top: 20px;
+  }
+  .service .serviceHeader .kirish .kirishRasm {
+    height: auto;
+    width: 50%;
+  }
+  .service .serviceHeader .kirishFooter .kirishRasmlar {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .service .serviceHeader .kirishFooter .kirishRasmlar img {
+    width: 15%;
+  }
+  .service .about {
+    padding: 50px;
+  }
+  .service .about .malumotlar {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .service .about .malumotlar .ong {
+    margin: 10px 0;
+  }
+  .service .about .malumotlar .chap h1 {
+    margin: 5px 0;
+  }
+  .service .about .malumotlar .chap p {
+    margin: 10px 0;
+  }
+  .service .expertise {
+    padding: 50px;
+  }
+  .service .expertise .expertiseText h2 {
+    font-size: 35px;
+    margin: 30px 0;
+  }
+  .service .expertise .expertiseBox .expertiseBoxer {
+    padding: 10px 0;
+  }
+  .service .expertise .expertiseBox .expertiseBoxer .expertisRasm img {
+    width: 30px;
+    height: 30px;
+  }
+  .service .ourServices {
+    padding: 50px;
+  }
+  .service .ourServices > h1 {
+    width: 100%;
+    margin: 5px 0;
+  }
+  .service .ourServices .servicesBoxer {
+    margin: 40px 0;
+  }
+  .service .ourServices .servicesBoxer .boxerServic {
+    height: auto;
+  }
+  .service .proces {
+    padding: 50px;
+  }
+  .service .proces .procesText > h1 {
+    width: 100%;
+    margin: 5px 0;
+  }
+  .service .costumers {
+    padding: 50px;
+  }
+  .service .readNews {
+    padding: 50px;
+  }
+  .service .readNews .readMore {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .service .readNews .readMore .readBoxer {
+    margin: 10px 0;
+  }
+}
+
+@media (max-width: 960px) {
+  .service .serviceHeader {
+    padding: 20px 50px;
+  }
+  .service .serviceHeader .kirish {
+    width: 100%;
+  }
+  .service .serviceHeader .kirish .kirishText h1 {
+    font-size: 35px;
+  }
+  .service .serviceHeader .kirishFooter {
+    margin-top: 10px;
+  }
+  .service .serviceHeader .kirishFooter .kirishRasmlar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .service .serviceHeader .kirishFooter .kirishRasmlar p {
+    color: white;
+    line-height: 23px;
+  }
+  .service .serviceHeader .kirishFooter .kirishRasmlar p span {
+    font-size: 14px;
+    opacity: 0.6;
+  }
+  .service .serviceHeader .kirishFooter .kirishRasmlar img {
+    margin: 0 5px;
+    width: 20%;
+  }
+  .service .proces {
+    padding: 30px 50px;
+  }
+  .service .proces .procesText > h1 {
+    font-size: 35px;
+  }
+  .service .proces .procesBox .procesBoxer {
+    margin: 5px 0;
+    width: 49%;
+    padding: 20px 10px;
+  }
+}
+
+@media (max-width: 660px) {
+  .service h1 {
+    font-size: 30px !important;
+  }
+  .service .serviceHeader .kirish {
+    width: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .service .serviceHeader .kirish .kirishText {
+    width: 100%;
+    padding-top: 0;
+    margin: 20px 0;
+  }
+  .service .serviceHeader .kirish .kirishText h1 {
+    font-size: 35px;
+  }
+  .service .serviceHeader .kirish .kirishRasm {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .service .serviceHeader .kirishFooter {
+    margin-top: 10px;
+  }
+  .service .serviceHeader .kirishFooter .kirishRasmlar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .service .serviceHeader .kirishFooter .kirishRasmlar p {
+    color: white;
+    line-height: 23px;
+  }
+  .service .serviceHeader .kirishFooter .kirishRasmlar p span {
+    font-size: 14px;
+    opacity: 0.6;
+  }
+  .service .serviceHeader .kirishFooter .kirishRasmlar img {
+    margin: 0 5px;
+    width: 20%;
+  }
+  .service .about .malumotlar .ong {
+    margin: 10px 0;
+  }
+  .service .about .malumotlar .ong h1 {
+    font-size: 35px;
+  }
+  .service .about .aboutFooter {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .service .about .aboutFooter .statis {
+    width: 100%;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .service .about .aboutFooter .statis .boxer {
+    width: 50%;
+    margin: 10px 0;
+  }
+  .service .expertise {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+    padding: 30px 50px;
+  }
+  .service .expertise .expertiseText {
+    width: 100%;
+  }
+  .service .expertise .expertiseText h2 {
+    font-size: 35px;
+    margin: 10px 0;
+    width: 100%;
+  }
+  .service .expertise .expertiseText p {
+    width: 100%;
+  }
+  .service .expertise .expertiseBox {
+    width: 100%;
+  }
+  .service .expertise .expertiseBox .expertiseBoxer {
+    margin: 15px 0;
+    padding: 10px;
+  }
+  .service .expertise .expertiseBox .expertiseBoxer .expertisRasm img {
+    width: 50px;
+    height: 50px;
+  }
+  .service .expertise .expertiseBox .expertiseBoxer .boxerText p {
+    width: 100%;
+  }
+  .service .ourServices {
+    padding: 30px 50px;
+  }
+  .service .ourServices > h1 {
+    width: 100%;
+    font-size: 35px;
+  }
+  .service .ourServices .servicesBoxer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 30px 0;
+  }
+  .service .ourServices .servicesBoxer .boxerServic {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    margin: 10px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .service .ourServices .servicesBoxer .boxerServic img {
+    width: 10%;
+    height: 10%;
+  }
+  .service .ourServices .servicesBoxer .boxerServic h4 {
+    margin: 10px 0;
+  }
+  .service .ourServices .servicesBoxer .boxerServic p {
+    width: 100%;
+    margin: 10px 0;
+  }
+  .service .proces {
+    padding: 30px 50px;
+  }
+  .service .proces .procesText > h1 {
+    font-size: 35px;
+  }
+  .service .proces .procesBox .procesBoxer {
+    margin: 5px 0;
+    width: 49%;
+    padding: 20px 10px;
+  }
+  .service .costumers {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+  }
+  .service .costumers .left {
+    width: 100%;
+    text-align: center;
+  }
+  .service .costumers .left h1 {
+    font-size: 35px;
+  }
+  .service .costumers .right {
+    width: 100%;
+  }
+  .service .readNews > h1 {
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 425px) {
+  .service h1 {
+    font-size: 25px !important;
+  }
+  .service .serviceHeader {
+    padding: 0px 20px;
+  }
+  .service .about {
+    padding: 20px;
+  }
+  .service .about p {
+    font-size: 12px;
+  }
+  .service .about .malumotlar .ong {
+    margin: 10px 0;
+  }
+  .service .about .malumotlar .ong h1 {
+    font-size: 30px;
+  }
+  .service .about .malumotlar .chap h1 {
+    font-size: 30px;
+  }
+  .service .about .slider {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .service .about .aboutFooter {
+    margin: 10px 0;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .service .about .aboutFooter .statis {
+    width: 100%;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .service .about .aboutFooter .statis .boxer {
+    width: 50%;
+  }
+  .service .expertise {
+    padding: 20px;
+  }
+  .service .expertise .expertiseText h2 {
+    font-size: 25px;
+  }
+  .service .ourServices {
+    padding: 20px;
+  }
+  .service .proces {
+    padding: 20px;
+  }
+  .service .proces .procesText h1 {
+    font-size: 25px;
+  }
+  .service .proces .procesBox {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+  }
+  .service .proces .procesBox .procesBoxer {
+    width: 100%;
+  }
+  .service .costumers {
+    padding: 20px;
+  }
+  .service .costumers .left {
+    width: 100%;
+  }
+  .service .costumers .left h1 {
+    font-size: 25px;
+  }
+  .service .costumers .right {
+    width: 100%;
+  }
+  .service .readNews {
+    padding: 20px;
+  }
+  .service .readNews .readMore .readBoxer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+/*# sourceMappingURL=responcive.css.map */

@@ -1,0 +1,276 @@
+.footer-container .footer {
+  padding: 50px 100px;
+}
+
+.footer-container .footer form {
+  background-color: #666DFF;
+  padding: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: white;
+}
+
+.footer-container .footer form .formText {
+  width: 50%;
+}
+
+.footer-container .footer form .formText p {
+  font-size: 14px;
+}
+
+.footer-container .footer form .formText h1 {
+  font-size: 36px;
+}
+
+.footer-container .footer form .formTugma {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.footer-container .footer form .formTugma input {
+  width: 90%;
+  height: 50px;
+  padding: 0 10px;
+  font-size: 20px;
+  margin: 15px 0;
+  outline: none;
+  border: none;
+  border-radius: 3px;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.footer-container .footer form .formTugma input:focus {
+  background-color: #dbdbdb;
+}
+
+.footer-container .footer form .formTugma button {
+  height: 50px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  width: 50%;
+  border-radius: 3px;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+.footer-container .footer form .formTugma button:hover {
+  background-color: #cecece;
+  border-bottom-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+
+.footer-container .footer .special {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 80px 0 30px;
+}
+
+.footer-container .footer .special .specialtext {
+  width: 50%;
+}
+
+.footer-container .footer .special .specialtext h1 {
+  font-size: 48px;
+}
+
+.footer-container .footer .special .specialtext h4 {
+  margin: 20px 0;
+}
+
+.footer-container .footer .special .specialtext span {
+  display: inline-block;
+  width: 35%;
+  border-bottom: 1px solid #c2c2c2;
+  padding-bottom: 10px;
+}
+
+.footer-container .footer .special .specialLink {
+  width: 17%;
+}
+
+.footer-container .footer .special .specialLink ul li {
+  list-style: none;
+  margin: 10px 0;
+}
+
+.footer-container .footer .contactUS {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer-container .footer .contactUS button {
+  outline: none;
+  border: none;
+  background-color: white;
+  cursor: pointer;
+}
+
+.footer-container .footerQism {
+  padding: 10px 100px;
+  background-color: #FFE6D2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer-container .footerQism .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer-container .footerQism .logo p {
+  margin: 0px 30px;
+}
+
+.footer-container .footerQism .footerTaqrmoq img {
+  margin: 0 15px;
+}
+
+@media (max-width: 1075px) {
+  .footer-container h1 {
+    font-size: 35px !important;
+  }
+  .footer-container .footer {
+    padding: 50px;
+  }
+  .footer-container .footerQism {
+    padding: 10px 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-container h1 {
+    font-size: 25px !important;
+  }
+  .footer-container .footer form {
+    padding: 50px;
+  }
+  .footer-container .footerQism {
+    padding: 10px 50px;
+  }
+}
+
+@media (max-width: 620px) {
+  .footer-container .footer form {
+    padding: 30px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .footer-container .footer form .formText {
+    width: 100%;
+  }
+  .footer-container .footer form .formTugma {
+    width: 100%;
+  }
+  .footer-container .footer form .formTugma input {
+    width: 100%;
+  }
+  .footer-container .footer .special {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .footer-container .footer .special .specialtext {
+    width: 100%;
+  }
+  .footer-container .footer .special .specialLink {
+    width: 33%;
+  }
+  .footer-container .footerQism {
+    padding: 10px 50px;
+  }
+}
+
+@media (max-width: 425px) {
+  .footer-container .footer {
+    padding: 30px;
+  }
+  .footer-container .footer form .formText h1 {
+    font-size: 25px;
+  }
+  .footer-container .footer form .formTugma input {
+    font-size: 16px;
+    height: 35px;
+  }
+  .footer-container .footer form .formTugma button {
+    font-size: 16px;
+    height: 35px;
+  }
+  .footer-container .footer form .formTugma button:hover {
+    background-color: #cecece;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+  .footer-container .footer .special {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+  }
+  .footer-container .footer .special .specialtext h1 {
+    font-size: 35px;
+  }
+  .footer-container .footer .special .specialLink {
+    width: 50%;
+  }
+  .footer-container .footer .contactUS {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    line-height: 25px;
+  }
+  .footer-container .footerQism {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media (max-width: 320px) {
+  .footer-container .footer {
+    padding: 20px;
+  }
+  .footer-container .footer form {
+    padding: 20px;
+  }
+  .footer-container .footerQism {
+    padding: 20px;
+  }
+}
+/*# sourceMappingURL=footer.css.map */

@@ -1,0 +1,230 @@
+.blog .trending {
+  padding: 50px 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.blog .trending .trending_left {
+  width: 60%;
+}
+
+.blog .trending .trending_left .shakl {
+  width: 24px;
+  height: 24px;
+  background-color: #FFD3AF;
+}
+
+.blog .trending .trending_left > p {
+  font-size: 14px;
+  margin: 15px 0;
+}
+
+.blog .trending .trending_left > h1 {
+  font-size: 48px;
+  width: 80%;
+  margin: 10px 0;
+}
+
+.blog .trending .trending_left > span {
+  display: inline-block;
+  width: 75%;
+  margin: 15px 0;
+}
+
+.blog .trending .trending_left a {
+  display: block;
+}
+
+.blog .trending .trending_left .tren_profile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 15px 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 70%;
+}
+
+.blog .trending .trending_left .tren_profile h4 {
+  border-right: 1px solid black;
+  padding-right: 3vw;
+}
+
+.blog .trending .trending_left .tren_profile span {
+  padding-left: 3vw;
+}
+
+.blog .trending .trending_left .tren_profile img {
+  margin-right: 15px;
+}
+
+.blog .trending .trending_left > img {
+  width: 90%;
+}
+
+.blog .trending .trending_right {
+  width: 40%;
+  height: 640px;
+  padding: 72px;
+  background-color: #FFDFC6;
+}
+
+.blog .trending .trending_right .trending_right_box h1 {
+  font-size: 24px;
+  width: 95%;
+  margin-bottom: 15px;
+}
+
+.blog .trending .trending_right .trending_right_box .trending_right_profile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 30px;
+  color: #232536;
+}
+
+.blog .trending .trending_right .trending_right_box .trending_right_profile .name {
+  margin-left: 15px;
+}
+
+.blog .trending .trending_right .trending_right_box .trending_right_profile .name p {
+  font-size: 14px;
+}
+
+.blog .resentPost {
+  padding: 0px 100px;
+  color: #232536;
+}
+
+.blog .resentPost > h1 {
+  margin: 20px 0;
+}
+
+.blog .resentPost .resentPost_box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.blog .resentPost .resentPost_box .resentPost_boxer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 48%;
+  margin: 1%;
+}
+
+.blog .resentPost .resentPost_box .resentPost_boxer > img {
+  width: 50%;
+}
+
+.blog .resentPost .resentPost_box .resentPost_boxer .boxer_text {
+  width: 50%;
+  background-color: #F9F9FF;
+  padding: 20px;
+}
+
+.blog .resentPost .resentPost_box .resentPost_boxer .boxer_text h1 {
+  font-size: 24px;
+  margin: 15px 0;
+  line-height: 36px;
+}
+
+.blog .resentPost .resentPost_box .resentPost_boxer .boxer_text .boxer_profile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #232536;
+}
+
+.blog .resentPost .resentPost_box .resentPost_boxer .boxer_text .boxer_profile > img {
+  width: 15%;
+  margin-right: 15px;
+}
+
+.blog .resentPost .resentPost_box .resentPost_boxer .boxer_text .boxer_profile h4 {
+  opacity: 0.87;
+  font-size: 16px;
+}
+
+.blog .resentPost .resentPost_box .resentPost_boxer .boxer_text .boxer_profile p {
+  opacity: 0.87;
+  font-size: 14px;
+}
+
+.blog .allPost {
+  padding: 30px 100px;
+  background-color: #F9F9F9;
+  margin: 50px 0;
+}
+
+.blog .allPost .allPost_container > h1 {
+  margin: 40px 0;
+}
+
+.blog .allPost .allPost_container .allPost_box {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.blog .allPost .allPost_container .allPost_box .allPost_boxer {
+  margin: 1% 0;
+  width: 32%;
+}
+
+.blog .allPost .allPost_container .allPost_box .allPost_boxer > img {
+  width: 100%;
+  margin: 0;
+}
+
+.blog .allPost .allPost_container .allPost_box .allPost_boxer .post_boxer_text {
+  margin-top: -2px;
+  background-color: white;
+  padding: 20px;
+}
+
+.blog .allPost .allPost_container .allPost_box .allPost_boxer .post_boxer_text > h1 {
+  width: 93%;
+  font-size: 24px;
+}
+
+.blog .allPost .allPost_container .allPost_box .allPost_boxer .post_boxer_text > p {
+  opacity: 0.87;
+  margin: 15px 0;
+}
+
+.blog .allPost .allPost_container .allPost_box .allPost_boxer .post_boxer_text .boxer_profile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #232536;
+}
+
+.blog .allPost .allPost_container .allPost_box .allPost_boxer .post_boxer_text .boxer_profile > img {
+  width: 13%;
+  margin-right: 15px;
+}
+
+.blog .allPost .allPost_container .allPost_box .allPost_boxer .post_boxer_text .boxer_profile h4 {
+  opacity: 0.87;
+  font-size: 16px;
+}
+
+.blog .allPost .allPost_container .allPost_box .allPost_boxer .post_boxer_text .boxer_profile p {
+  opacity: 0.87;
+  font-size: 14px;
+}
+/*# sourceMappingURL=blog.css.map */

@@ -1,0 +1,243 @@
+@media (max-width:1075px){
+    .blog{
+        .trending{
+            .trending_left{
+                .tren_profile{
+                    width: 100%;
+                }
+            }
+            padding: 30px 50px;
+            .trending_right{
+                padding: 30px 50px;
+            }
+        }
+        .resentPost{
+            padding:30px 50px;
+        }
+        .allPost{
+            padding:20px 50px;
+            margin: 20px 0;
+        }
+    }
+}
+
+@media (max-width:960px){
+    .blog{
+        .trending{
+            .trending_left{
+                &>h1{
+                    font-size: 40px;
+                    width: 90%;
+                }
+                &>p{
+                    margin: 10px 0;
+                }
+                &>span{
+                    width: 90%;
+                }
+            }
+            .trending_right{
+                padding: 30px;
+                height: 560px;
+                .trending_right_box{
+                    h1{
+                        font-size: 22px;
+                    }
+                }
+            }
+        }
+        .resentPost{
+            .resentPost_box{
+                .resentPost_boxer{
+                    width: 100%;
+                    margin: 1% 0;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:800px){
+    .blog{
+        .trending{
+            .trending_left{
+                h1{
+                    font-size: 35px;
+                }
+                .tren_profile{
+                    flex-wrap: wrap;
+                    h4{
+                        border: none;
+                    }
+                    span{
+                        width: 100%;
+                        padding: 0;
+                        margin: 5px 0;
+                    }
+                }
+            }
+            .trending_right{
+                padding: 15px;
+                .trending_right_box{
+                    h1{
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+        .allPost{
+            margin: 0;
+            padding: 5px 50px;
+            .allPost_container{
+                h1{
+                    margin: 15px 0;
+                }
+                .allPost_box{
+                    .allPost_boxer{
+                        width: 49%;
+                        
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:640px){
+    .blog{
+        .trending{
+            .trending_left{
+                h1{
+                    font-size: 25px;
+                    margin: 5px 0;
+                }
+            }
+            .trending_right{
+                height: auto;
+                .trending_right_box{
+                    h1{
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+        .resentPost{
+            padding: 10px 50px;
+            &>h1{
+                font-size: 25px;
+            }
+            .resentPost_box{
+                .resentPost_boxer{
+                    .boxer_text{
+                        padding: 10px 20px;
+                        h1{
+                            // margin: 5px 0;
+                            font-size: 20px;
+                            line-height: 30px;
+                        }
+                    }
+                }
+            }
+        }
+        .allPost{
+            .allPost_container{
+                .allPost_box{
+                    .allPost_boxer{
+                        .post_boxer_text{
+                            h1{
+                                font-size: 18px;
+                                margin: 0;
+
+                            }
+                            .boxer_profile{
+                                &>img{
+                                    width: 15%;
+                                    height: 15%;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(max-width:425px){
+    .blog{
+        .trending{
+            padding: 20px;
+            flex-wrap: wrap;
+            .trending_left{
+                .shakl{
+                    width: 15px;
+                    height: 15px;
+                }
+                &>h1{
+                    width: 100%;
+                }
+                span{
+                    width: 100%;
+                }
+                width: 100%;
+                &>img{
+                    width: 100%;
+                }
+            }
+            .trending_right{
+                margin: 20px 0;
+                padding: 20px;
+                width: 100%;
+            }
+        }
+        .resentPost{
+            padding: 0 20px;
+            .resentPost_box{
+                .resentPost_boxer{
+                    flex-direction: column;
+                    &>img{
+                        width: 100%;
+                    }
+                    .boxer_text{
+                        width: 100%;
+                        padding: 0;
+                        &>h1{
+                            line-height: 25px;
+                        }
+                        .boxer_profile{
+                            &>img{
+                                width: 10%;
+                                height: 10%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .allPost{
+            padding: 20px;
+            .allPost_container{
+                &>h1{
+                    font-size: 25px;
+                }
+                .allPost_box{
+                    .allPost_boxer{
+                        width: 100%;
+                        .post_boxer_text{
+                            padding: 15px 0;
+                            &>p{
+                                margin: 5px 0;
+                            }
+                            .boxer_profile{
+                                &>img{
+                                    width: 10%;
+                                    height: 10%;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

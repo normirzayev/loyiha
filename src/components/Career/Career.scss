@@ -1,0 +1,114 @@
+.career{
+    h1, h2, p{
+        color: #232536;
+    }
+    .careerHeader{
+        padding: 50px 100px;
+        text-align: center;
+        .careerLogo{
+            display: flex;
+            justify-content: space-between;
+            &>p{
+                font-size: 14px;
+            }
+        }
+        .careersRasm{
+            h2{
+                width: 50%;
+                font-size: 48px;
+                margin: 15px auto;
+            }
+            p{
+                width: 42%;
+                margin: 10px auto;
+                opacity: 0.87;
+            }
+            h1{
+                background-image: url("../../eats/img/career/background.svg");
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                font-size: 230px;
+                -webkit-background-clip: text;
+                color: transparent;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-weight: bold;
+            }
+        }
+        &>p{
+            font-size: 18px;
+        }
+    }
+    .technologyAbout{
+        padding: 50px 100px;
+        .tehcnology_box{
+            background-color: #ECF8F9;
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+            justify-content: space-between;
+            padding: 40px;
+            .tehcnology_boxer{
+                padding: 30px;
+                background-color: white;
+                width: 32%;
+                margin: 10px 0;
+                h2{
+                    font-size: 16px;
+                    margin: 10px 0;
+                }
+                p{
+                    opacity: 0.87;
+                    margin: 10px 0; 
+                }
+                a{
+                    display: inline-block;
+                    margin-top: 30px;
+                    color: #5D5FEF;
+                    text-decoration: none;
+                }
+
+            }
+        }
+    }
+    .culture{
+        padding: 50px 100px;
+        background-color: #f5f5f5;
+        .culture_container{
+            p{
+                font-size: 14px;
+            }
+            h1{
+                font-size: 36px;
+                width: 50%;
+                margin: 20px 0;
+            }
+            span{
+                display: inline-block;
+                width: 43%;
+                opacity: 0.87;
+            }
+            .culture_box{
+                width: 100%;
+                margin: 40px 0;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                .culture_boxer{
+                    width: 33%;
+                    background-color: white;
+                    margin: 3px 0;
+                    padding: 15px 20px;
+                    h3{
+                        font-size: 16px;
+                        margin: 10px 0;
+                    }
+                    p{
+                        font-size: 14px;
+                        width: 90%;
+                    }
+                }
+            }
+        }
+    }
+}
